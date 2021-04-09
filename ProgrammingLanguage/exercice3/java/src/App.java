@@ -72,12 +72,12 @@ class Employee extends Person{
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Person array[] = {
+        Printable array[] = {
             new Student("Benoît", 20, "ECE Paris", "BSc", "Programming Language"),
             new Person("Michel", 41),
             new Employee("Luci", 999, "Prof", 50000),
         };
-        for (Person pers:array){
+        for (Printable pers:array){
             pers.printToScreen();
         }
     }
