@@ -3,6 +3,8 @@
 ## Part 1
 
 Create a graphical user interface, which looks like this:
+(Look at *img.png*)
+
 - Use the *java.awt* package:
 - Use a descendant of *java.awt.Frame* for the window and the specified classes for the components.
 - Use three panels as indicated above:
